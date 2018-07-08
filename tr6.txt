@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jul  6 08:51:33 2018
+
+@author: 123
+"""
+
+import plotly
+import plotly.graph_objs as go
+
+data = [go.Bar(
+            x=['giraffes', 'orangutans', 'monkeys'],
+            y=[20, 14, 23]
+    )]
+
+plotly.offline.plot(data)
